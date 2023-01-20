@@ -16,7 +16,7 @@ public class p1 extends basetest {
 	 ob.sakshiLogin.login(p.getProperty("username"),p.getProperty("password"));	
 	  
 	 /*clicks on the amount header*/
-	//ob.sakshiHome.ClickingOnAmount(driver);
+	ob.sakshiHome.ClickingOnAmount(driver);
 	 
 	 /*fetches the values in the amount column after clicking on amount header*/
 	 ob.sakshiHome.ValuesAfterClickingAmount(driver);

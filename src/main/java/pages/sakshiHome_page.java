@@ -48,7 +48,7 @@ public class sakshiHome_page {
 		System.out.println("Values after sorting");
 		System.out.println(sortedlist);
 		
-		if (sortedlist==originalList) {
+		if (sortedlist.equals(originalList) ) {
 			System.out.println("                                                    ");
 		} else {
 			System.out.println("\"Failed:After clicking on amount header the values are not sorted(in ascending order)\"");
